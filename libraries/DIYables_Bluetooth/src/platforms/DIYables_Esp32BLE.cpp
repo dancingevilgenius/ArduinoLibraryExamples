@@ -1,6 +1,7 @@
 #if defined(ESP32)
 
 #include "DIYables_Esp32BLE.h"
+#include <BLEDevice.h>
 
 // Static instance pointer
 DIYables_Esp32BLE* DIYables_Esp32BLE::instance = nullptr;
